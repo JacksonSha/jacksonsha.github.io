@@ -2,22 +2,42 @@
 layout: default
 ---
 
-<div class="home">
+<div class="jumbotron">
+  <div class="container">
+    <br/>
+    <h2>芝麻小院</h2>
+    <h2>生活不只有眼前的苟且</h2>
+    <h2>还有诗和远方</h2>
+    <br/>
+    <!-- <p>事了拂衣去，</p> -->
+    <!-- <p>深藏身与名。</p> -->
+  </div>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-  <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      <div class="article">
+        <div class="title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </div>
+        <div class="info">
+          <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+          <span class="text">{{ post.date | date: "%Y-%m-%d" }}</span>
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+          <span class="text">Jackson</span>
+          <span class="glyphicon glyphicon-tags" aria-hidden="true"></span>
+          <span class="text"><a href="">{{post.categories}}</a></span>
+        </div>
+        <div class="summary">
+          <!-- <img class="img-responsive" style="width:30%" src="{{site.url}}{{post.figure}}"> -->
+          <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+        </div>
+      </div>
     {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+    </div>
+  </div>
 </div>

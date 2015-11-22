@@ -1,0 +1,87 @@
+html {
+	font-size: 10px;
+}
+body {
+  /* font-family: 'Lato', arial, sans-serif; */
+  /*font-family: 'Microsoft Yahei', 'Simsun';*/
+  color: #434343;
+  background: #FFFFFF;/* #dae3e7*/
+  font-size: 1.6rem;
+  /*-webkit-font-smoothing: antialiased;*/
+  /*-moz-osx-font-smoothing: grayscale;*/
+}
+a {
+  color: #18B0F3;
+}
+a:hover {
+  color: #029FE4;
+  text-decoration: none;
+}
+footer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.navbar {
+  border: 0rem;
+  border-radius: 0rem;
+  margin-bottom: 0rem;
+  color: #FFFFFF;
+  /*background-color: #41C0E6;*/
+}
+.navbar a {
+  /*color: #FFFFFF;*/
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: transparent;
+}
+
+.navbar-inverse {
+  background-image: -webkit-linear-gradient(top,#000000 0,#000000 100%);
+  background-image: -o-linear-gradient(top,#000000 0,#000000 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#000000),to(#000000));
+  background-image: linear-gradient(to bottom,#000000 0,#000000 100%);
+}
+
+.container {
+	max-width: 1000px !important;
+}
+.jumbotron {
+  color: #FFFFFF;
+  text-align: right;
+  /*background-color: #41C0E6;*/
+  background-image: url('/assets/Interstellar.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 70%;
+}
+
+.article {
+  float: none;
+  clear: both;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem solid #D6D6D6;
+}
+.article:hover {
+  background-color: #FBFBFB;
+}
+.article .title {
+  font-size: 2.5rem;
+}
+.article .title a:hover {
+  text-decoration: none;
+}
+.article .info {
+  font-size: 1.3rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+.article .info .text {
+  margin-left: 0.2rem;
+  margin-right: 0.5rem;
+}
+.article .summary {
+
+}
