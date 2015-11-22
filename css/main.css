@@ -56,7 +56,11 @@ footer {
   background-repeat: no-repeat;
   background-position-y: 70%;
 }
-
+@media screen and (max-width: 768px) {
+  .jumbotron h2 {
+    font-size: 2rem;
+  }
+}
 .article {
   float: none;
   clear: both;
