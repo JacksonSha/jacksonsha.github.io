@@ -1,11 +1,10 @@
 html {
 	font-size: 10px;
+  min-width: 260px;
 }
 body {
-  /* font-family: 'Lato', arial, sans-serif; */
-  /*font-family: 'Microsoft Yahei', 'Simsun';*/
   color: #434343;
-  background: #FFFFFF;/* #dae3e7*/
+  background: #FFFFFF;
   font-size: 1.6rem;
   /*-webkit-font-smoothing: antialiased;*/
   /*-moz-osx-font-smoothing: grayscale;*/
