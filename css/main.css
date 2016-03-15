@@ -8,6 +8,7 @@ body {
   font-size: 1.6rem;
   /*-webkit-font-smoothing: antialiased;*/
   /*-moz-osx-font-smoothing: grayscale;*/
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
 }
 a {
   color: #18B0F3;
@@ -36,25 +37,52 @@ footer {
 }
 
 .navbar-inverse {
-  background-image: -webkit-linear-gradient(top,#000000 0,#000000 100%);
-  background-image: -o-linear-gradient(top,#000000 0,#000000 100%);
-  background-image: -webkit-gradient(linear,left top,left bottom,from(#000000),to(#000000));
-  background-image: linear-gradient(to bottom,#000000 0,#000000 100%);
+  background-image: -webkit-linear-gradient(top,#404040 0,#0A0A0A 100%);
+  background-image: -o-linear-gradient(top,#404040 0,#0A0A0A 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#404040),to(#0A0A0A));
+  background-image: linear-gradient(to bottom,#404040 0,#0A0A0A 100%);
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
 }
 
-.container {
-	max-width: 1000px !important;
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
 }
+
+@media screen and (min-width: 1300px) {
+  .container {
+    width: 1170px;
+  }
+}
+
 .jumbotron {
   color: #FFFFFF;
   text-align: right;
   /*background-color: #41C0E6;*/
   background-image: url('http://7xrv3q.com1.z0.glb.clouddn.com/Interstellar.jpg');
+  /*background-image: url('../assets/c16b3483-3f6a-433b-acdf-f5ded8beba79.jpg');*/
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 70%;
 }
+.jumbotron {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.jumbotron h2:first-child {
+  margin-top: 50px;
+}
+.jumbotron h2:last-child {
+  margin-bottom: 50px;
+}
+
 @media screen and (max-width: 768px) {
   .jumbotron h2 {
     font-size: 2rem;
@@ -88,3 +116,31 @@ footer {
 .article .summary {
 
 }
+
+
+.thumbnail {
+  height: 250px;
+  overflow: hidden;
+  /*min-height: 240px;*/
+  /*max-height: 340px;*/
+}
+
+.panel-heading {
+    height: 120px;
+    background-size: cover;
+}
+
+.btn-primary {
+    color: #fff;
+    border: 1px solid #45A7E0;
+    background: #45A7E0;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:visited {
+    background-color: #45A7E0!important;
+    border-color: #45A7E0!important;
+}
+

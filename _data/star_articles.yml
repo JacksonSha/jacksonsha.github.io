@@ -1,0 +1,40 @@
+
+- title: 经典排序算法总结与实现
+  url: http://wuchong.me/blog/2014/02/09/algorithm-sort-summary/
+
+- title: 从LongAdder 看更高效的无锁实现
+  url: http://www.liuinsect.com/2014/04/15/%E6%AF%94atomiclong%E8%BF%98%E9%AB%98%E6%95%88%E7%9A%84longadder-%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/
+
+- title: 深度解析Java8 – AbstractQueuedSynchronizer的实现分析（上）
+  url: http://www.liuinsect.com/2014/08/07/jdk1-8-abstractqueuedsynchronizer/
+
+- title: 深度解析Java8 – AbstractQueuedSynchronizer的实现分析（下）
+  url: http://www.liuinsect.com/2014/09/04/jdk1-8-abstractqueuedsynchronizer-part2/
+
+- title: 深度解析Java8 – ScheduledThreadPoolExecutor源码解析
+  url: http://www.liuinsect.com/2014/11/17/scheduledthreadpoolexecutor/
+
+- title: 关于Condition中访问AQS方法的问题
+  url: http://www.liuinsect.com/2014/01/28/%E5%85%B3%E4%BA%8Econdition%E4%B8%AD%E8%AE%BF%E9%97%AEaqs%E6%96%B9%E6%B3%95%E7%9A%84%E9%97%AE%E9%A2%98/
+
+- title: 怎么理解Condition
+  url: http://www.liuinsect.com/2014/01/27/how_to_understand_condition/
+
+- title: ReentrantLock实现原理深入探究
+  url: http://www.tuicool.com/articles/R7Fnaa
+
+- title: Scrapy 1.0 文档
+  url: http://scrapy-chs.readthedocs.org/zh_CN/1.0/index.html
+
+- title: 细聊分布式ID生成方法
+  url: http://chuansong.me/n/2459549
+
+- title: Mysql查询语句使用select.. for update导致的数据库死锁分析
+  url: http://www.cnblogs.com/Lawson/archive/2015/11/30/5008741.html
+
+- title: Markdown——入门指南
+  url: http://www.jianshu.com/p/1e402922ee32/
+
+- title: chrome扩展应用开发文档-360
+  url: http://open.chrome.360.cn/extension_dev/samples.html
+
